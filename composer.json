@@ -26,7 +26,17 @@
     },
     "require": {
         "composer/installers": "*",
-        "silvercommerce/catalogue-admin": ">=1.1",
-        "silvercommerce/catalogue-frontend": "^1.0"
-    }
+        "silvercommerce/catalogue-admin": "dev-ss5",
+        "silvercommerce/catalogue-frontend": "dev-ss5"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bigfork/silvercommerce-catalogue-admin"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bigfork/silvercommerce-catalogue-frontend"
+        }
+    ]
 }
